@@ -1,0 +1,190 @@
+                                              										
+Gaussian (4s)
+PRIMA  
+True positive:  3271
+False positive:  399
+False negative:  519
+True negative:  3087
+Precision:  0.8912806539509537
+Accuracy:  0.8738317757009346
+Recall:  0.8630606860158311
+False negative rate:  0.13693931398416886
+False positive rate:  0.1144578313253012
+
+DOPO
+True positive:  3246
+False positive:  389
+False negative:  544
+True negative:  3097
+Precision:  0.8929848693259973
+Accuracy:  0.8717702034084662
+Recall:  0.8564643799472296
+False negative rate:  0.14353562005277046
+False positive rate:  0.11158921399885255
+
+DecisionTree(2 min & 54s)
+True positive:  3153
+False positive:  708
+False negative:  637
+True negative:  2778
+Precision:  0.8166278166278166
+Accuracy:  0.8151456844420011
+Recall:  0.8319261213720317
+False negative rate:  0.16807387862796833
+False positive rate:  0.20309810671256454
+
+RandomForest(3min & 8s)
+PRIMA
+True positive:  3340
+False positive:  403
+False negative:  450
+True negative:  3083
+Precision:  0.892332353726957
+Accuracy:  0.8827652556349642
+Recall:  0.8812664907651715
+False negative rate:  0.11873350923482849
+False positive rate:  0.11560527825588067
+
+DOPO
+True positive:  3341
+False positive:  375
+False negative:  449
+True negative:  3111
+Precision:  0.8990850376749193
+Accuracy:  0.8867509620670698
+Recall:  0.8815303430079156
+False negative rate:  0.11846965699208444
+False positive rate:  0.10757314974182444
+
+SVM(3min & 9s)
+PRIMA
+True positive:  3347
+False positive:  408
+False negative:  443
+True negative:  3078
+Precision:  0.8913448735019973
+Accuracy:  0.8830401319406267
+Recall:  0.88311345646438
+False negative rate:  0.11688654353562006
+False positive rate:  0.11703958691910499
+
+DOPO
+True positive:  3376
+False positive:  277
+False negative:  414
+True negative:  3209
+Precision:  0.9241719134957569
+Accuracy:  0.9050302363936229
+Recall:  0.8907651715039577
+False negative rate:  0.10923482849604221
+False positive rate:  0.07946069994262765
+
+PassiveAggressive(26s)
+PRIMA
+True positive:  3364                                                                                         
+False negative:  426
+True negative:  3120
+Precision:  0.9018766756032172
+Accuracy:  0.8911489829576691
+Recall:  0.8875989445910291
+False negative rate:  0.11240105540897098
+False positive rate:  0.10499139414802065
+
+DOPO
+True positive:  3380
+False positive:  368
+False negative:  410
+True negative:  3118
+Precision:  0.9018143009605123
+Accuracy:  0.8930731170973062
+Recall:  0.8918205804749341
+False negative rate:  0.10817941952506596
+False positive rate:  0.10556511761331039
+
+--------------------------------------------------------------------------
+
+mlp(9min e 52s)
+PRIMA 
+True positive:  3410
+False positive:  369
+False negative:  380
+True negative:  3117
+Precision:  0.9023551204022228
+Accuracy:  0.8970588235294118
+Recall:  0.899736147757256
+False negative rate:  0.10026385224274406
+False positive rate:  0.10585197934595525
+
+DOPO
+True positive:  3426
+False positive:  287
+False negative:  364
+True negative:  3199
+Precision:  0.9227040129275519
+Accuracy:  0.910527762506872
+Recall:  0.903957783641161
+False negative rate:  0.09604221635883906
+False positive rate:  0.0823293172690763
+
+Gru(3min)
+PRIMA
+Epoch 1/10
+938/938 [==============================] - 23s 22ms/step - loss: 1.4327 - accuracy: 0.5176 - val_loss: 1.0153 - val_accuracy: 0.6615
+Epoch 2/10
+938/938 [==============================] - 20s 21ms/step - loss: 0.8214 - accuracy: 0.7328 - val_loss: 0.6799 - val_accuracy: 0.7780
+Epoch 3/10
+938/938 [==============================] - 20s 21ms/step - loss: 0.5360 - accuracy: 0.8345 - val_loss: 0.4751 - val_accuracy: 0.8458
+Epoch 4/10
+938/938 [==============================] - 20s 21ms/step - loss: 0.3943 - accuracy: 0.8785 - val_loss: 0.6746 - val_accuracy: 0.7654
+Epoch 5/10
+938/938 [==============================] - 21s 23ms/step - loss: 0.3202 - accuracy: 0.9021 - val_loss: 0.3296 - val_accuracy: 0.8928
+Epoch 6/10
+938/938 [==============================] - 20s 21ms/step - loss: 0.2711 - accuracy: 0.9172 - val_loss: 0.3227 - val_accuracy: 0.8920
+Epoch 7/10
+938/938 [==============================] - 20s 21ms/step - loss: 0.2347 - accuracy: 0.9295 - val_loss: 0.2624 - val_accuracy: 0.9146
+Epoch 8/10
+938/938 [==============================] - 21s 22ms/step - loss: 0.2040 - accuracy: 0.9385 - val_loss: 0.1767 - val_accuracy: 0.9444
+Epoch 9/10
+938/938 [==============================] - 20s 22ms/step - loss: 0.1811 - accuracy: 0.9445 - val_loss: 0.6366 - val_accuracy: 0.7940
+Epoch 10/10
+938/938 [==============================] - 21s 22ms/step - loss: 0.1643 - accuracy: 0.9494 - val_loss: 0.2723 - val_accuracy: 0.9141
+
+Dopo
+Epoch 100/100
+1875/1875 [==============================] - 20s 11ms/step - loss: 0.4093 - accuracy: 0.7897 - val_loss: 0.0508 - val_accuracy: 0.9858
+<keras.callbacks.History at 0x7f88733e33d0>
+
+
+lstm (22 min)
+(sui dati usati per l'addestramento)
+
+              precision    recall  f1-score   support
+
+         0.0     0.8994    0.9082    0.9038       512
+         1.0     0.9062    0.8972    0.9017       506
+
+    accuracy                         0.9028      1018
+   macro avg     0.9028    0.9027    0.9027      1018
+weighted avg     0.9028    0.9028    0.9027      1018
+
+
+(sui dati trascurati dall'addestramento)
+
+               precision    recall  f1-score   support
+
+         0.0       0.89      0.91      0.90      1057
+         1.0       0.91      0.89      0.90      1124
+
+    accuracy                           0.90      2181
+   macro avg       0.90      0.90      0.90      2181
+weighted avg       0.90      0.90      0.90      2181
+
+True positive:  555
+False positive:  55
+False negative:  48
+True negative:  505
+Precision:  0.9098360655737705
+Accuracy:  0.9114359415305245
+Recall:  0.9203980099502488
+False negative rate:  0.07960199004975124
+False positive rate:  0.09821428571428571
